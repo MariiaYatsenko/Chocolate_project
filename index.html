@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&family=Montserrat:wght@400;500;600;700&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Simly Chocolate</title>
+</head>
+
+<body>
+    <!-- #region Header -->
+    <header class="header">
+        <div class="container header-container">
+            <nav class="nav-header">
+                <a href="" class="logo-header"><span class="header-text-span">SIMPLY</span> CHOCOLATE</a><svg
+                    class="chocolate-icon" width="21" height="21">
+                    <use href="./images/sprite.svg#icon-chocolate"></use>
+                </svg>
+                <ul class="nav-list">
+                    <li><a href="" class="nav-item-link">Home</a></li>
+                    <li><a href="" class="nav-item-link">How it’s made?</a></li>
+                    <li><a href="" class="nav-item-link">Chocolate is loved</a></li>
+                </ul>
+                <div class="social-link-header">
+                    <a href="https://www.twitter.com/" class="social-link">
+                        <svg class="social-icon" width="24" height="24">
+                            <use href="./images/sprite.svg#icon-twitter"></use>
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/" class="social-link">
+                        <svg class="social-icon" width="24" height="24">
+                            <use href="./images/sprite.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </div>
+            </nav>
+            <button class="burger-btn" type="button" data-menu-open>
+                <svg class="burger-icon" width="28" height="28">
+                    <use href="./images/sprite.svg#icon-menu-03"></use>
+                </svg>
+            </button>
+        </div>
+        <!-- #region Mobile Menu -->
+        <div class="mobile-menu" data-menu>
+            <div class="container mobile-menu-container">
+                <button class="modal-btn" type="button" data-menu-close>
+                    <svg class="icon-close" width="12" height="12">
+                        <use href="./images/icons.svg#icon-close-btn"></use>
+                    </svg>
+                </button>
+                <nav class="mobile-menu-nav">
+                    <ul class="mobile-list">
+                        <li>
+                            <a href="./index.html" class="mobile-link-orange">Home</a>
+                        </li>
+                        <li>
+                            <a href="" class="mobile-link">How it’s made?</a>
+                        </li>
+                        <li>
+                            <a href="" class="mobile-link">Chocolate is loved</a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="mobile-list-icons">
+                    <li class="mobile-item-icon">
+                        <a href="https://www.twitter.com/" class="social-link">
+                            <svg class="social-icon-mobile" width="22" height="22">
+                                <use href="./images/sprite.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mobile-item-icon">
+                        <a href="https://www.instagram.com/" class="social-link">
+                            <svg class="social-icon-mobile" width="22" height="22">
+                                <use href="./images/sprite.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- #endregion Mobile Menu -->
+    </header>
+    <!-- #endregion Header -->
+
+    <main>
+        <!--#region HERO  -->
+        <section class="hero">
+            <div class="container hero-container">
+                <div class="sub-hero-container">
+                    <h1 class="title-hero">
+                        Treat yourself or a loved one to our finest ingredients for a
+                        moment of pure delight!
+                    </h1>
+                    <div class="btn-list-container">
+                        <button class="hero-btn" type="button">Buy now</button>
+                        <a href="" class="link-btn">How it’s made</a>
+                        <a href="" class="link-scroll">scroll down
+                            <span class="scroll-down-icon">
+                                <svg class="icon-scroll" width="16" height="16">
+                                    <use href="./images/sprite.svg#icon-scroll"></use>
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--#endregion  -->
+        <!--#region HIDDEN -->
+        <section class="benefits">
+            <div class="container-benefits">
+                <div class="container">
+                    <ul class="list-items-benefits">
+                        <li class="item-benefits item-benefits-after">
+                            <div class="subcontainer-for-icons">
+                                <svg href="" width="28" height="28" class="benefits-icons">
+                                    <use href="./images/sprite.svg#icon-choco"></use>
+                                </svg>
+                            </div>
+                            <h2 class="title-benefits">Unsurpassed taste</h2>
+                            <p class="benefits-parag">
+                                Crafted with the finest quality cocoa beans and a dedication
+                                to perfection, each bite is a decadent experience that simply
+                                cannot be matched. Savor the richness and complexity of our
+                                Unsurpassed Taste and discover a new level of chocolate bliss.
+                            </p>
+                        </li>
+                        <li class="item-benefits item-benefits-after">
+                            <div class="subcontainer-for-icons">
+                                <svg href="" width="28" height="28" class="benefits-icons">
+                                    <use href="./images/sprite.svg#icon-coin"></use>
+                                </svg>
+                            </div>
+                            <h2 class="title-benefits">Affordable price</h2>
+                            <p class="benefits-parag">
+                                Indulge in high-quality chocolate without breaking the bank
+                                with Simply Chocolate's selection of affordable treats. Enjoy
+                                mouth-watering truffles and velvety chocolate bars without
+                                sacrificing taste or quality. Browse our selection and indulge
+                                in affordable luxury today.
+                            </p>
+                        </li>
+                        <li class="item-benefits">
+                            <div class="subcontainer-for-icons">
+                                <svg href="" width="28" height="28" class="benefits-icons">
+                                    <use href="./images/sprite.svg#icon-la-utensil-spoon"></use>
+                                </svg>
+                            </div>
+                            <h2 class="title-benefits">Own production</h2>
+                            <p class="benefits-parag">
+                                We take pride in our own production process, ensuring that
+                                every step is carefully crafted to perfection. From selecting
+                                the finest ingredients to handcrafting each piece, our
+                                attention to detail is evident in every bite.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!--#endregion  -->
+        <!--#region SENSATION -->
+        <section class="sensation">
+            <div class="container sensation-container">
+                <div class="block-container">
+                    <h2 class="sensation-title">
+                        IT ALL ADDS UP TO ONE EXCEPTIONAL
+                        <span class="orange-title">TASTE</span> SENSATION
+                    </h2>
+                    <p class="subparagraf-sensation">
+                        At Simply Chocolate, we believe that the secret to exceptional
+                        chocolate is in the details. From the sourcing of the finest
+                        ingredients to the careful crafting of each individual piece,
+                        every step of our process adds up to one exceptional taste
+                        sensation.
+                    </p>
+                </div>
+                <ul class="sensation-list-item">
+                    <li class="sensation-item">
+                        <div class="subcotainer-ingridients-one">
+                            <pictures>
+                                <source srcset="
+                      ./images/photo/chocolate-bar-uni.png    1x,
+                      ./images/photo/chocolate-bar-uni@2x.png 2x
+                    " media="max-width: 732px" />
+                                <source srcset="
+                      ./images/photo/chocolate-bar.png    1x,
+                      ./images/photo/chocolate-bar@2x.png 2x
+                    " media="(min-width: 733px)" />
+                                <img src="./images/photo/chocolate-bar.png" alt="Chocolate" class="img" width="224"
+                                    height="171" />
+                            </pictures>
+                            <p class="img-paragraf">MILK CHOCOLATE</p>
+                        </div>
+                    </li>
+                    <li class="sensation-item">
+                        <div class="subcotainer-ingridients">
+                            <pictures>
+                                <source srcset="
+                      ./images/photo/milk-uni.png    1x,
+                      ./images/photo/milk-uni@2x.png 2x
+                    " media="max-width: 732px" />
+                                <source srcset="
+                      ./images/photo/milk.png    1x,
+                      ./images/photo/milk@2x.png 2x
+                    " media="(min-width: 733px)" />
+                                <img src="./images/photo/milk.png" alt="Milk" class="img" width="224" height="171" />
+                            </pictures>
+                            <p class="img-paragraf-second">MILK</p>
+                        </div>
+                    </li>
+                    <li class="sensation-item">
+                        <div class="subcotainer-ingridients-three">
+                            <pictures class="picture">
+                                <source srcset="
+                      ./images/photo/nuts-uni.png    1x,
+                      ./images/photo/nuts-uni@2x.png 2x
+                    " media="max-width: 732px" />
+                                <source srcset="
+                      ./images/photo/nuts.png    1x,
+                      ./images/photo/nuts@2x.png 2x
+                    " media="(min-width: 733px)" />
+                                <img src="./images/photo/nuts.png" alt="Nuts" class="img" width="224" height="171" />
+                            </pictures>
+                            <p class="img-paragraf">NUTS</p>
+                        </div>
+                    </li>
+                    <li class="sensation-item">
+                        <div class="subcotainer-ingridients">
+                            <pictures>
+                                <source srcset="
+                      ./images/photo/sweet-uni.png    1x,
+                      ./images/photo/sweet-uni@2x.png 2x
+                    " media="max-width: 732px" />
+                                <source srcset="
+                      ./images/photo/sweet.png    1x,
+                      ./images/photo/sweet@2x.png 2x
+                    " media="(min-width: 733px)" />
+                                <img src="./images/photo/sweet.png" alt="Sweet" class="img" width="224" height="171" />
+                            </pictures>
+                            <p class="img-paragraf-second">SEMI - SWEET CHOCOLATE</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!--#endregion  -->
+        <!--#region HOW its MADE -->
+        <section id="how-its" class="how-made">
+            <div class="container how-made-container"></div>
+        </section>
+        <!--#endregion  -->
+        <!--#region USER-COMMENT -->
+        <section class="user-comment">
+            <div class="container user-container"></div>
+        </section>
+        <!--#endregion  -->
+    </main>
+    <!-- #region Footer -->
+
+    <footer id="foot" class="footer"></footer>
+
+    <!-- #endregion Footer -->
+    <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
+</body>
+
+</html>
